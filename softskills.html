@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn-softskills</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="icon" type="image/png" href="EduLearn.png">
+    <style>
+        body {
+            scroll-behavior: smooth;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .grid-item {
+            border: 1px solid black;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            width: 370px;
+            height: 290px; /* Set a default height */
+            position: relative;
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .grid-item h3,
+        .grid-item p {
+            color: white; /* Set text color to white for better visibility on images */
+        }
+
+        .grid-item h3 {
+            font-size: 20px;
+            margin: 10px;
+            padding-top: 35px;
+        }
+
+        .grid-item p {
+            font-size: 18px;
+            margin: 10px;
+            padding-top: 150px;
+            text-shadow: 2px 2px 4px black;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns */
+            gap: 20px; /* Gap between grid items */
+            background-color: rgb(255, 255, 255);
+            padding: 30px;
+        }
+
+        .grid-item:hover {
+            transform: scale(1.02); /* Enlarge the grid item on hover */
+        }
+
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #3498db;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="font-size: 50px;">EduLearn</h1>
+        <p style="text-align: center; text-transform: capitalize;">click on the title of the course it will be redirected to another page to view the classes</p>
+    </header> 
+     <section class="grid-container">
+        <!-- Grid items for the 2x3 layout -->
+        <!-- AngularJS grid item -->
+        <div class="grid-item" style="background-image: url('https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2019/08/23101050/carrer.jpg');">
+            <h3><a href="http://www.youtube.com/embed/9v8cIl5ovWY" style="color: rgb(33, 33, 33);">Career Planning</a></h3>
+            <p style="font-size: medium; margin-bottom: 20px; color: black; text-transform: capitalize;"><b>Career Planning is nothing but a Strategize in life.</b></p>
+        </div>
+        <div class="grid-item" style="background-image: url('https://thumbs.dreamstime.com/b/vector-illustration-young-business-group-discussion-their-office-young-business-group-discussion-their-office-157641854.jpg');">
+            <h3><a href="http://www.youtube.com/embed/3w32jIsRlsw" style="color: rgb(22, 22, 22);">Group Discussions</a></h3>
+            <p style="font-size: small; margin-bottom: 20px; color:black; text-transform: capitalize;"><b>Group discussion is a collaborative conversation where individuals share ideas, opinions, and perspectives to collectively explore and analyze a topic.</b></p>
+        </div>
+        <div class="grid-item" style="background-image: url('https://www.monitask.com/wp-content/uploads/2022/04/Time-Management-Plan-1.png');">
+            <h3><a href="http://www.youtube.com/embed/KJLHlOIdqA4" style="color: rgb(37, 37, 37); text-shadow: 2px 2px 4px;">Time Management</a></h3>
+            <p style="font-size: small; color:black; text-transform: capitalize;"><b>Time management is the strategic allocation and prioritization of tasks to optimize productivity and achieve personal or professional goals.</b></p>
+        </div>
+        <div class="grid-item" style="background-image: url('https://rare-gallery.com/uploads/posts/600300-Socrates-quote.jpg');">
+            <h3><a href="http://www.youtube.com/embed/4lTbWQ8zD3w" style="color: rgb(254, 254, 254);">ThySelf</a></h3>
+            <p style="font-size: small; margin-bottom: 20px; text-transform: capitalize;">"Thyself" refers to one's own self or individual identity.</p>
+        </div>
+        <div class="grid-item" style="background-image: url('https://i.pinimg.com/564x/d0/91/74/d09174f5ec009faf326f161c13a9e41e.jpg');">
+            <h3><a href="http://www.youtube.com/embed/v7fXpwsoL1E" style="color: rgb(0, 0, 0);">Body Language</a></h3>
+            <p style="font-size: small; margin-bottom: 20px; text-transform: capitalize; color:black; text-shadow:none;"><b>Body language is the non-verbal communication expressed through gestures, posture, and facial expressions, conveying information and emotions.</b></p>
+        </div>
+        <div class="grid-item" style="background-image: url('https://i.pinimg.com/564x/c2/12/9f/c2129fe4c287aad4b62c2c3cd08d0818.jpg');">
+            <h3><a href="http://www.youtube.com/embed/QRCFeWyPtwg" style="color: rgb(0, 0, 0); text-shadow: 2px 2px 8px;">CV/RESUME</a></h3>
+            <p style="font-size: small; margin-bottom: 20px; text-transform: capitalize; color: rgb(0, 0, 0);">"A well-crafted CV/resume is a personalized marketing document that highlights an individual's skills, education, and experience to showcase their suitability for a specific job."</p>
+        </div>
+        <div class="grid-item" style="background-image: url('https://i.pinimg.com/564x/93/78/e2/9378e255129df8bb461bc6d3b70a2632.jpg');">
+            <h3><a href="http://www.youtube.com/embed/L0NzILSPKvc" style="color: rgb(0, 0, 0);">Interviews</a></h3>
+            <p style="font-size: small; margin-bottom: 20px; text-transform: capitalize;">An interview is a structured conversation where an interviewer assesses a candidate's qualifications, skills, and suitability for a specific role or position.</p>
+        </div>
+
+  
+    </section>
+    <footer>
+        <p>&copy; 2023 EduLearn. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

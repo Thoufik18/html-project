@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn-Web Development</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="icon" type="image/png" href="EduLearn.png">
+    <style>
+        body {
+            scroll-behavior: smooth;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .grid-item {
+            border: 1px solid black;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            width: 370px;
+            height: 290px; /* Set a default height */
+            position: relative;
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .grid-item h3,
+        .grid-item p {
+            color: white; /* Set text color to white for better visibility on images */
+        }
+
+        .grid-item h3 {
+            font-size: 20px;
+            margin: 10px;
+            padding-top: 35px;
+        }
+
+        .grid-item p {
+            font-size: 18px;
+            margin: 10px;
+            padding-top: 150px;
+            text-shadow: 2px 2px 4px black;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns */
+            gap: 20px; /* Gap between grid items */
+            background-color: rgb(255, 255, 255);
+            padding: 30px;
+        }
+
+        .grid-item:hover {
+            transform: scale(1.02); /* Enlarge the grid item on hover */
+        }
+
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #3498db;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="font-size: 50px;">EduLearn</h1>
+        <p>Web Development courses</p>
+        <p style="text-align: center; text-transform: capitalize;">click on the title of the course it will be redirected to another page to view the classes</p>
+    </header> 
+    <h2 style="text-align: center;">Front End</h2>
+
+     <section class="grid-container">
+        <!-- Grid items for the 2x3 layout -->
+        <!-- AngularJS grid item -->
+<div class="grid-item" style="background-image: url('https://cdn.w3villa.com/assets/354/original/AngularJS_for_Web_Application_Development.jpg');">
+    <h3><a href="http://www.youtube.com/embed/NSWzs-Jt65w" style="color: rgb(233, 231, 231);">ANGULAR JS</a></h3>
+    <p style="font-size: small; margin-bottom: 20px;">AngularJS is a JavaScript-based open-source front-end web application framework for building dynamic, single-page applications.</p>
+</div>
+
+        <div class="grid-item" style="background-image: url('https://e0.pxfuel.com/wallpapers/316/193/desktop-wallpaper-javascript.jpg');">
+            <h3><a href="http://www.youtube.com/embed/JVTZb4YvKjM" style="color: rgb(247, 247, 247);  text-shadow: 2px 2px 2px black;">JAVA SCRIPT</a></h3>
+            <p>JavaScript is a powerful scripting language</p>
+        </div>
+        <div class="grid-item" style="background-image: url('https://assets.materialup.com/uploads/17601736-39a4-4971-aa3f-474ce3fc7d0c/preview.png');">
+            <h3><a href="http://www.youtube.com/embed/7jaQv6xfQjY" style="color: rgb(0, 0, 0); ">HTML</a></h3>
+            <p style="color: rgb(0, 0, 0); text-shadow:none;">HTML is the standard markup language for creating and structuring content on the web.</p>
+        </div>
+        <div class="grid-item" style="background-image: url('https://scrimba.com/articles/content/images/size/w2000/2022/08/How-to-Practice-CSS--with-examples-.png');">
+            <h3><a href="http://www.youtube.com/embed/vcjXeqUJUYU" style="color: rgb(9, 8, 8);">CSS</a></h3>
+            <p  style="font-size: medium;  margin-top: 16px;">CSS is a stylesheet language used for describing the presentation of a document written in HTML or XML.</p>
+        </div>
+        <div class="grid-item" style="background-image: url('https://www.zdnet.com/a/img/resize/df093294bb76ff4070947fd7a31c68cd03f578f1/2019/04/21/9d791bf2-9b20-476a-bba6-201e622d2a1f/jquery-logo-blue.png?auto=webp&width=1280');">
+            <h3><a href="http://www.youtube.com/embed/Rkvn_MA04fo" style="color: rgb(9, 8, 8);">JQUERY</a></h3>
+            <p style="font-size: small;">jQuery is a fast and concise JavaScript library designed to simplify HTML document traversal and manipulation, event handling, animation, and AJAX interactions.</p>
+        </div>
+      
+    </section>
+
+    <h2 style="text-align: center;">Back End</h2>
+    <section  class="grid-container">
+      <div class="grid-item" style="background-image: url('https://sumatosoft.com/wp-content/uploads/2022/03/5da04fb9675e83753eaad737_Artboard-1-1024x562.jpg');">
+            <h3><a href="http://www.youtube.com/embed/t_ispmWmdjY">RUBY</a></h3>
+            <p style="font-size: small; margin-bottom: 20px; color:rgb(30, 30, 30);">Ruby is a dynamic, object-oriented programming language known for its simplicity and productivity.</p>
+        </div>
+      <div class="grid-item" style="background-image: url('https://cdn.activestate.com/wp-content/uploads/2021/12/python-coding-mistakes.jpg');">
+            <h3><a href="http://www.youtube.com/embed/sCOw5y1RQpY" style="color: rgb(233, 231, 231);">PYTHON</a></h3>
+            <p style="font-size: small; margin-bottom: 20px;">Python is a high-level, interpreted programming language known for its simplicity, readability, and versatility.</p>
+        </div>
+      <div class="grid-item" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgwqX23SME0inly2RDz9a_toVxYA64PImYDQ&usqp=CAU');">
+            <h3><a href="http://www.youtube.com/embed/zZ6vybT1HQs" style="color: rgb(40, 40, 40);">PHP</a></h3>
+            <p style="font-size: small; margin-bottom: 20px; color:black;">PHP is a server-side scripting language widely used for web development, known for its ease of integration with HTML and database systems.</p>
+        </div>
+      <div class="grid-item" style="background-image: url('https://blog.logrocket.com/wp-content/uploads/2023/07/node-js-project-architecture-best-practices.png');">
+            <h3><a href="http://www.youtube.com/embed/Oe421EPjeBE" style="color: black;">NODE JS</a></h3>
+            <p style="font-size: small; margin-bottom: 20px;">Node.js is a runtime environment that allows JavaScript to be executed on the server side, enabling scalable and high-performance server-side applications.</p>
+        </div>
+      <div class="grid-item" style="background-image: url('https://wallpapercave.com/wp/wp7250161.png');">
+            <h3><a href="http://www.youtube.com/embed/xk4_1vDrzzo" style="color: rgb(226, 222, 222);">JAVA</a></h3>
+            <p style="font-size: small; margin-bottom: 20px; color:rgb(214, 212, 212);">Java is a versatile, object-oriented programming language known for its platform independence and wide usage in web development, mobile applications, and enterprise systems.</p>
+        </div>
+
+      <div class="grid-item" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg);">
+            <h3><a href="http://www.youtube.com/embed/C5cnZ-gZy2I" style="color: rgb(255, 255, 255);">.NET CORE</a></h3>
+            <p style="font-size: small; margin-bottom: 20px;">.NET Core is a cross-platform, open-source framework for building modern, scalable, and high-performance applications.</p>
+        </div>
+     
+      <div class="grid-item" style="background-image: url('https://img-c.udemycdn.com/course/480x270/3763606_5b87_3.jpg');">
+            <h3><a href="http://www.youtube.com/embed/CJVE9EbZon8" style="color: rgb(229, 226, 226);">C#</a></h3>
+            <p style="font-size: small; color: rgb(255, 254, 254); text-shadow:none;">C# is a modern, object-oriented programming language developed by Microsoft for building a wide range of applications on the .NET framework.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 EduLearn. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

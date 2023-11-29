@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn-Techcourses</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="icon" type="image/png" href="EduLearn.png">
+    <style>
+        body{
+            scroll-behavior: smooth;
+            
+        }
+        .tcs{
+            text-align: center;
+            color: #3c3c3c;
+            padding: 10px 0;
+            border-radius: 4px;
+            font-weight: 200;
+        }
+        /* Apply a grid layout to the sections containing iframes */
+#section1,
+#section2,
+#section4,
+#section5,
+#section6,
+#section7,
+#section8,
+#section9,
+#section10,
+#section11,
+#section12,
+#section13,
+#section14,
+#section15,
+#section16,
+#section17,
+#section18,
+#section19,
+#section20,
+#section21,
+#section22,
+#section23,
+#section24 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 16px;
+    margin-bottom: 30px; /* Adjust as needed */
+}
+
+/* Apply aspect ratio to each iframe */
+#section1 iframe,
+#section2 iframe,
+#section4 iframe,
+#section5 iframe,
+#section6 iframe,
+#section7 iframe,
+#section8 iframe,
+#section9 iframe,
+#section10 iframe,
+#section11 iframe,
+#section12 iframe,
+#section13 iframe,
+#section14 iframe,
+#section15 iframe,
+#section16 iframe,
+#section17 iframe,
+#section18 iframe,
+#section19 iframe,
+#section20 iframe,
+#section21 iframe,
+#section22 iframe,
+#section23 iframe,
+#section24 iframe {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40%; /* 16:9 aspect ratio */
+    transform: scale(1);
+    transition: transform 0.3s ease-out; /* Smooth transition on hover */
+}
+
+/* Add hover effect */
+#section1 iframe:hover,
+#section2 iframe:hover,
+#section4 iframe:hover,
+#section5 iframe:hover,
+#section6 iframe:hover,
+#section7 iframe:hover,
+#section8 iframe:hover,
+#section9 iframe:hover,
+#section10 iframe:hover,
+#section11 iframe:hover,
+#section12 iframe:hover,
+#section13 iframe:hover,
+#section14 iframe:hover,
+#section15 iframe:hover,
+#section16 iframe:hover,
+#section17 iframe:hover,
+#section18 iframe:hover,
+#section19 iframe:hover,
+#section20 iframe:hover,
+#section21 iframe:hover,
+#section22 iframe:hover,
+#section23 iframe:hover,
+#section24 iframe:hover {
+    transform: scale(1.05); /* Scale up slightly on hover */
+}
+
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 50px;">EduLearn</h1>
+        <p>Learn anything, anytime.<br> For free of cost</p>
+    </header>
+<section>
+    <nav class="color">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="techcourses.html">Technical Courses</a></li>
+            <li><a href="non-tech courses.html">Non-Technical Courses</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="sign up.html" style="color: black;">Sign Up</a></li>
+            <li><a href="login.html" style="color: black;">Login</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="tcs">
+            <h2>ExploreTechnical Courses</h2>
+        </section>
+    </main>
+</section>
+    <nav>
+        <div class="scrollable-nav">
+            <ul>
+                <li class="item"><a href="#section1">Python</a></li >
+                <li class="item"><a href="#section2">Html</a></li >
+                <li class="item"><a href="#section3">css</a></li >
+                <li class="item"><a href="#section4">Java</a></li >
+                <li class="item"><a href="#section5">C++</a></li >
+                <li class="item"><a href="#section6">Linux</a></li >
+                <li class="item"><a href="#section7">Operating System</a></li >
+                <li class="item"><a href="#section8">C #</a></li >
+                <li class="item"><a href="#section9">Django</a></li >
+                <li class="item"><a href="#section10">Java script</a></li >
+                <li class="item"><a href="#section11">Django++</a></li >
+                <li class="item"><a href="#section12">shell script</a></li >
+                <li class="item"><a href="#section13">Data-science</a></li >
+                <li class="item"><a href="#section14">SQL</a></li >
+                <li class="item"><a href="#section15">Computer Networking</a></li >
+                <li class="item"><a href="#section16">Machine Learning</a></li >
+                <li class="item"><a href="#section17">Flask</a></li >
+                <li class="item"><a href="#section18">Mongo DL</a></li >
+                <li class="item"><a href="#section19">Database management system</a></li >
+                <li class="item"><a href="#section20">Excel</a></li >
+                <li class="item"><a href="#section21">DevOps</a></li >
+                <li class="item"><a href="#section22">Mobile Computing</a></li >
+                <li class="item"><a href="#section23"> Computer Number System</a></li >
+                <li class="item"><a href="#section24">Java OOPS</a></li >
+
+            </ul>
+        </div>
+    </nav>
+    <section class="back">
+    <section id="section1" class="video-container">
+    <div class="pyhton">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/h1WdbfoHeac" frameborder="0" allowfullscreen></iframe>
+    </div>
+    </section>
+<section id="section2" class="video-container">
+    <div class="html">
+        <iframe width="560" height="510" src="http://www.youtube.com/embed/7jaQv6xfQjY" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section id="section3" class="video-container">
+    <div class="CSS">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/vcjXeqUJUYU" frameborder="0" allowfullscreen></iframe>
+    </div>
+<section id="section4" class="video-container">
+    <div class="java">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/AzJEnN2pK_I" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section5">
+    <div class="ccc">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/ueT_KIbtvkI" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section6">
+    <div class="linux">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/YsFfo9IF4W4" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section7">
+    <div class="operating">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/ty31jQe2ZLA" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section8">
+    <div class="cc">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/CJVE9EbZon8" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section9">
+    <div class="django">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/V7knPMQPuMY" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section10">  
+    <div class="script">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/JVTZb4YvKjM" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section11">
+    <div class="djangorest">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/iWpEC_PtEVw" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section12">
+    <div class="shell">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/brncISQ6ByA" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section13">
+    <div class="data">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/WKHlx--15_I" frameborder="0" allowfullscreen></iframe>
+    </div>
+    </section>
+<section id="section14">
+        <div class="sql">
+            <iframe width="560" height="560" src="http://www.youtube.com/embed/WiCFOGOs8IM" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+<section id="section15">
+            <div class="cn">
+                <iframe width="560" height="560" src="http://www.youtube.com/embed/Z09ayKIhDuM" frameborder="0" allowfullscreen></iframe>
+            </div>
+            </section>
+<section id="section16">
+        <div class="ML">
+            <iframe width="560" height="560" src="http://www.youtube.com/embed/UehuI1w10lg" frameborder="0" allowfullscreen></iframe>
+        </div>
+</section>
+<section id="section17">
+    <div class="flask">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/oQWkuJhSMCQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section18">
+    <div class="Mongo">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/ZQuQ-wHuPlg" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section19">
+    <div class="DMS">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/DbQLWpaWLKw" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section20">
+    <div class="excel">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/vBs5WJLwnAQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section21">
+    <div class="DevOps">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/N1fYTi-edNk" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section22">
+    <div class="CB">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/A3SpoKz7z1w" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section23">
+    <div class="cns">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/FsW_jXp0A4s" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section24">
+    <div class="oops">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/ot4ZjFLVkho" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section24">
+    <div class="pythonlive1">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/dCrasMiejao" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section24">
+    <div class="">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section24">
+    <div class="">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section24">
+    <div class="">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="section24">
+    <div class="">
+        <iframe width="560" height="560" src="http://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 EduLearn. All rights reserved.</p>
+    </footer>
+</body>
+</html>

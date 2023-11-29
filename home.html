@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="icon" type="image/png" href="EduLearn.png">
+    <style>
+        body{
+            scroll-behavior: smooth;
+        }
+        
+        .courses-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 10px;
+        }
+
+        .course-card {
+            width: 300px;
+            margin: 8px;
+            padding: 13px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .course-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .course-card h3 {
+            margin-top: 8px;
+            font-size: 18px;
+        }
+
+        .course-card p {
+            margin-top: 5px;
+            color: #555;
+        }
+        #loginbutton, #signupbutton {
+            background-color: rgb(234, 200, 200);
+            color: #000000;
+            border: auto;
+            padding: 10px 20px ;
+            margin-top: px;
+            border-radius: 5px;
+            cursor: pointer;
+            float: right;
+        }
+        #loginbutton:hover, #signupbutton:hover {
+            background-color:  #6baff7;
+        }
+    </style>
+</head>
+<body>
+    <div class="popup" id="loginPopup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('loginPopup')">&times;</span>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="button" onclick="login()">Login</button>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="popup1" id="signupPopup">
+        <div class="popup-content1">
+            <span class="close" onclick="closePopup('signupPopup')">&times;</span>
+            <form>
+                <label for="newUsername">New Username:</label>
+                <input type="text" id="newUsername" name="newUsername" required>
+
+                <label for="newPassword">New Password:</label>
+                <input type="password" id="newPassword" name="newPassword" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="button" onclick="signup()">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <button id="loginbutton" onclick="openPopup('loginPopup')">Login</button>
+    <button id="signupbutton" onclick="openPopup('signupPopup')">Sign Up</button>
+    
+
+    <script>
+        function openPopup(popupId) {
+            document.getElementById(popupId).style.display = "block";
+        }
+
+        function closePopup(popupId) {
+            document.getElementById(popupId).style.display = "none";
+        }
+
+        function login() {
+            // Add your login logic here
+            alert("Login button clicked!");
+        }
+
+        function signup() {
+            // Add your signup logic here
+            alert("Sign Up button clicked!");
+        }
+    </script>
+    <header>
+        <h1 style="font-size: 50px; padding-left: 264px; text-align:center;">EduLearn</h1>
+        <p>Learn anything, anytime.<br> For free of cost</p>
+    </header>
+    <section class="border">
+    <nav class="color">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav></section>
+    <main>
+        <section class="hero">
+            <h2>Welcome to EduLearn</h2>
+            <p>Unlock the world of knowledge with our diverse courses. Learn anything, anytime, for free</p>
+                        <a href="courses.html" class="cta-button">Explore Courses</a>
+        </section>
+        <main>
+            <section class="hero">  
+                <h2>Popular cousres</h2>
+            </section>
+    
+            <section class="courses-container">
+                
+                <div class="course-card">
+                    <h3>Python</h3>
+                    <p>Python is a versatile and high-level programming language known for its readability, simplicity, and extensive libraries.</p>
+                    <a href="courses.html" class="cta-button">Explore</a>
+                </div>
+
+                <div class="course-card">
+                    <h3>Web Development</h3>
+                    <p>Web development is the process of building and maintaining websites or web applications using various programming languages, frameworks, and tools.</p>
+                    <a href="courses.html" class="cta-button">Explore</a>
+                </div>
+    
+                <!-- Add more courses as needed -->
+    
+            </section>
+        </main>
+        </section>
+    </main>
+    <script>
+        // Function to check internet connection
+        function checkInternetConnection() {
+            if (navigator.onLine) {
+                alert("You are online! Internet connection is available.");
+            } else {
+                alert("You are offline! Please check your internet connection.");
+            }
+        }
+
+        // Example: Call the function when the page loads
+        window.onload = function () {
+            checkInternetConnection();
+        };
+    </script>
+    <footer>
+        <p>&copy; 2023 EduLearn. All rights reserved.</p>
+    </footer>
+</body>
+</html>

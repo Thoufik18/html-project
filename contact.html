@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn</title>
+    <link rel="stylesheet" href="project.css">
+    <style>
+        body{
+            scroll-behavior: smooth;
+        }
+    </style>
+
+</head>
+<body>
+    <style>
+        /* Apply some basic styling to the form container */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Style the heading */
+.contact-form h2 {
+    color: #333;
+}
+
+/* Style the form labels */
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Style the form inputs and textarea */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-form{
+    background: 100;
+}
+
+/* Style the submit button */
+.contact-form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Change button color on hover */
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+/* Add some spacing to the form elements */
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    margin-bottom: 15px;
+}
+
+    </style>
+    <header>
+        <h1 style="font-size: 50px;">EduLearn</h1>
+        <p>Learn anything, anytime.<br> For free of cost</p>
+    </header>
+    <section class="border">
+    <nav class="color">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+    </nav></section>
+    <body>
+        
+    </body>
+    <main>
+        <section class="hero">
+            <h2>Welcome to EduLearn</h2>
+            <p>At EduLearn, <br>we believe in the power of education to transform lives. <br>Whether you are a student looking to enhance your skills, a professional seeking to stay ahead in your career, or someone simply curious to explore new topics, we have a diverse range of courses to meet your learning needs.</p>
+    </main>
+    <main>
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="mailto:edulearnindia49@gmail.com" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <script>
+        // Function to check internet connection
+        function checkInternetConnection() {
+            if (navigator.onLine) {
+                alert("You are online! Internet connection is available.");
+            } else {
+                alert("You are offline! Please check your internet connection.");
+            }
+        }
+
+        // Example: Call the function when the page loads
+        window.onload = function () {
+            checkInternetConnection();
+        };
+    </script>
+    <footer>
+        <p>&copy; 2023 EduLearn. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,528 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #ede4e4;
+    margin: 0;
+    padding: 0;
+	}
+
+body{
+        scroll-behavior: smooth;
+}
+header {
+    background-color: #6765f3;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    text-shadow: #e3e0e0;
+}
+nav ul {
+    list-style: none;
+    padding: 5px;
+    margin-top: 5px;
+    text-align: center;
+    text-shadow: #545454;
+    
+}
+nav li {
+    display: inline;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-shadow: #dbd9d9;
+    word-spacing: 20px;
+    font-size: medium;
+    word-spacing: normal;
+    font-weight: 500;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2B124C;
+    font-weight: bold;
+}
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #3c3c3c;
+    padding: 50px 0;
+    border-radius: 10px;
+        }
+.cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+.hero h2 {
+    font-size: 38px;
+}
+.hero p{
+    font-weight: 200;
+    word-spacing: 5px;
+}
+
+.course {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 10px;
+    box-shadow: #1a1919;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #3498db;
+    color: #fff;
+
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.popup-content {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+#loginbutton {
+    margin-right: 100px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.popup1 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.popup-content1 {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+}
+
+button:hover {
+    background-color: #946f91;
+}
+.scrollable-nav {
+    overflow-x: auto;
+    white-space: nowrap;
+    border: 3px solid white;
+    background-color: #E1CBD7;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+nav ul li .item {
+    color: whitesmoke;
+}
+.cc,
+.ccc,
+.css,
+.data,
+.django,
+.djangorest,
+.java,
+.html,
+.linux,
+.shell,
+.script,
+.operating,
+.scrollable-nav,
+.sql ,
+.ML,
+
+{
+    color: whitesmoke;
+}
+/* project.css */
+
+/* Style the paragraphs next to iframes */
+.pyhton p,
+.html p,
+.CSS p,
+.java p,
+.ccc p,
+.linux p,
+.operating p,
+.cc p,
+.django p,
+.script p,
+.djangorest p,
+.shell p,
+.data p,
+.ML p,
+.sql p,
+.shell p 
+{
+    margin-left: 10px; /* Add some left margin for spacing */
+}
+
+/* You can further style the paragraphs as needed */
+.pyhton p,
+.html p,
+.CSS p,
+.java p,
+.ccc p,
+.linux p,
+.operating p,
+.cc p,
+.django p,
+.script p,
+.djangorest p,
+.shell p,
+.data p,
+.ML p,
+.sql p,
+.shell p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+.back{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    object-fit:contain;
+    padding: 15px;
+    background-color: #f7f2ee;
+}
+
+section {
+    text-align: center;
+}
+
+div {
+    border: 1px solid #a59393;
+    padding: 8px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#section15,
+#section16,
+#section19,
+#section23{
+    font-size: 14.5px;
+}
+/* Apply a grid layout to the sections containing iframes */
+#section1,
+#section2,
+#section4,
+#section5,
+#section6,
+#section7,
+#section8,
+#section9,
+#section10,
+#section11,
+#section12,
+#section13,
+#section14,
+#section15,
+#section16,
+#section17,
+#section18,
+#section19,
+#section20,
+#section21,
+#section22,
+#section23,
+#section24 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 16px;
+    margin-bottom: 30px; /* Adjust as needed */
+}
+
+/* Apply aspect ratio to each iframe */
+#section1 iframe,
+#section2 iframe,
+#section4 iframe,
+#section5 iframe,
+#section6 iframe,
+#section7 iframe,
+#section8 iframe,
+#section9 iframe,
+#section10 iframe,
+#section11 iframe,
+#section12 iframe,
+#section13 iframe,
+#section14 iframe,
+#section15 iframe,
+#section16 iframe,
+#section17 iframe,
+#section18 iframe,
+#section19 iframe,
+#section20 iframe,
+#section21 iframe,
+#section22 iframe,
+#section23 iframe,
+#section24 iframe
+ {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40%; /* 16:9 aspect ratio */
+}
+
+/* Apply a grid layout to the sections containing iframes */
+#section1,
+#section2,
+#section4,
+#section5,
+#section6,
+#section7,
+#section8,
+#section9,
+#section10,
+#section11,
+#section12,
+#section13,
+#section14,
+#section15,
+#section16,
+#section17,
+#section18,
+#section19,
+#section20,
+#section21,
+#section22,
+#section23,
+#section24 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 16px;
+    margin-bottom: 30px; /* Adjust as needed */
+}
+
+/* Apply aspect ratio to each iframe */
+#section1 iframe,
+#section2 iframe,
+#section4 iframe,
+#section5 iframe,
+#section6 iframe,
+#section7 iframe,
+#section8 iframe,
+#section9 iframe,
+#section10 iframe,
+#section11 iframe,
+#section12 iframe,
+#section13 iframe,
+#section14 iframe,
+#section15 iframe,
+#section16 iframe,
+#section17 iframe,
+#section18 iframe,
+#section19 iframe,
+#section20 iframe,
+#section21 iframe,
+#section22 iframe,
+#section23 iframe,
+#section24 iframe {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40%; /* 16:9 aspect ratio */
+    opacity: 0.8; /* Initial opacity */
+    transition: opacity 0.3s ease; /* Transition effect on opacity */
+}
+
+/* Change opacity on hover */
+#section1 iframe:hover,
+#section2 iframe:hover,
+#section4 iframe:hover,
+#section5 iframe:hover,
+#section6 iframe:hover,
+#section7 iframe:hover,
+#section8 iframe:hover,
+#section9 iframe:hover,
+#section10 iframe:hover,
+#section11 iframe:hover,
+#section12 iframe:hover,
+#section13 iframe:hover,
+#section14 iframe:hover,
+#section15 iframe:hover,
+#section16 iframe:hover,
+#section17 iframe:hover,
+#section18 iframe:hover,
+#section19 iframe:hover,
+#section20 iframe:hover,
+#section21 iframe:hover,
+#section22 iframe:hover,
+#section23 iframe:hover,
+#section24 iframe:hover {
+    opacity: 1; /* Hovered opacity */
+}
+/* Style the navigation links */
+nav ul li a {
+    text-decoration: none;
+    color: #2B124C;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+/* Add hover effect to the navigation links */
+nav ul li a:hover {
+    background-color: #007BFF; /* Change the background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+/* Style the Explore Courses button */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+/* Add hover effect to the Explore Courses button */
+.cta-button:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+}

@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn-home</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="icon" type="image/png" href="EduLearn.png">
+    <style>
+        body{
+            scroll-behavior: smooth;
+        }
+        
+        .courses-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 10px;
+        }
+        .heroine {
+            background-color: aqua;
+        }
+        .course-card {
+            width: 300px;
+            margin: 8px;
+            padding: 13px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 1px 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .course-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .course-card h3 {
+            margin-top: 8px;
+            font-size: 18px;
+        }
+
+        .course-card p {
+            margin-top: 5px;
+            color: #555;
+        }
+        .hero{
+            background-color: #f6dddd;
+        }
+        .course-card:hover {
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 50px; text-align:center;">EduLearn</h1>
+        <p>Learn anything, anytime.<br> For free of cost</p>
+    </header>
+    
+    <section class="border">
+    <nav class="color">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+           
+            <li><a href="techcourses.html">Technical Courses</a></li>
+            <li><a href="non-tech courses.html">Non-Technical Courses</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="home.html">Sign Out</a></li>
+        </ul>
+    </nav></section>
+    <main>
+        <section class="hero">
+            <h2>Welcome to EduLearn</h2>
+            <p>Unlock the world of knowledge with our diverse courses. Learn anything, anytime, for free</p>
+                        <a href="techcourses.html" class="cta-button">Explore Courses</a>
+        </section>
+        <main>
+            <section class="heroine">  
+                <h2>Popular Courses</h2>
+            </section>
+    
+            <section class="courses-container">
+                
+                <div class="course-card">
+                    <h3>Python</h3>
+                    <p>Python is a versatile and high-level programming language known for its readability, simplicity, and extensive libraries.</p>
+                    <a href="http://www.youtube.com/embed/h1WdbfoHeac" class="cta-button">Explore</a>
+                </div>
+
+                <div class="course-card">
+                    <h3>Web Development</h3>
+                    <p>Web development is the process of building and maintaining websites or web applications using various programming languages, frameworks, and tools.</p>
+                    <a href="webdevelopment.html" class="cta-button">Explore</a>
+                </div>
+
+                <div class="course-card">
+                    <h3>UI/UX Design</h3>
+                    <p>UI/UX design is the art of creating visually appealing and intuitively navigable digital experiences to enhance user satisfaction and engagement.</p>
+                    <a href="http://www.youtube.com/embed/Qmhv1_Z7MIA" class="cta-button">Explore</a>
+                </div>
+
+                <div class="course-card">
+                    <h3>Soft skills</h3>
+                    <p>Soft skills encompass interpersonal, communication, and personal attributes that enhance one's ability to work effectively with others and navigate professional and social situations.</p>
+                    <a href="softskills.html" class="cta-button">Explore</a>
+                </div>
+
+                <div class="course-card">
+                    <h3>Artificial Intelligence</h3>
+                    <p>Artificial Intelligence is a field of computer science focused on creating systems that can perform tasks requiring human-like intelligence.</p>
+                    <a href="http://www.youtube.com/embed/VOaoabf3LPM" class="cta-button">Explore</a>
+                </div>
+                <div class="course-card">
+                    <h3>Graphic Design</h3>
+                    <p>Graphic design is the art of visually communicating ideas, information, and messages through the use of images, typography, and layout.</p>
+                    <a href="http://www.youtube.com/embed/y501KkJGsOY" class="cta-button">Explore</a>
+                </div>
+                <div class="course-card">
+                    <h3>Content Writer</h3>
+                    <p>A content writer creates engaging and informative written material for various mediums, such as websites, blogs, or marketing materials, to communicate effectively with a target audience.</p>
+                    <a href="http://www.youtube.com/embed/8t2FWD45wNA" class="cta-button">Explore</a>
+                </div>
+    
+            </section>
+  
+        </main>
+        </section>
+    </main>       
+    
+    <footer>
+        <p>&copy; 2023 EduLearn. All rights reserved.</p>
+    </footer>
+</body>
+</html>

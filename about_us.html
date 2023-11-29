@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - EduLearn</title>
+    <link rel="stylesheet" href="project.css">
+    <style>
+        /* Add this to your project.css file or create a new CSS file */
+
+/* Social Media Section */
+.social-media {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5; /* Background color for the social media section */
+}
+
+.social-media h3 {
+    color: #333; /* Color for the "Connect with Us" heading */
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 10px;
+}
+
+.social-media img {
+    width: 40px; /* Adjust the width of your social media icons */
+    height: 40px; /* Adjust the height of your social media icons */
+    border-radius: 50%; /* Make the icons circular */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the icons */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.social-media img:hover {
+    transform: scale(1.2); /* Enlarge the icon on hover */
+}
+
+/* Add more styles as needed */
+
+    </style>
+   
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 50px;">EduLearn</h1>
+        <p>Learn anything, anytime.<br> For free of cost</p>
+    </header>
+    <section class="border">
+        <nav class="color">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    <main>
+        <section class="heroine">
+            <style>
+                .heroine{
+                    word-spacing: 5px;
+                }
+            </style>
+            <h2>About Us</h2>
+            <p>Where we are passionate about providing quality education to everyone, anytime, and anywhere. <br>Our mission is to make learning accessible and enjoyable for learners of all ages and backgrounds.</p>
+    
+            <p>At EduLearn, <br>we believe in the power of education to transform lives. <br>Whether you are a student looking to enhance your skills, a professional seeking to stay ahead in your career, or someone simply curious to explore new topics, we have a diverse range of courses to meet your learning needs.</p>
+    
+            <p>Our team of dedicated educators and professionals work tirelessly to create engaging and interactive learning experiences. We are committed to fostering a supportive and inclusive learning community, where collaboration and knowledge-sharing thrive.</p>
+    
+            <p>Thank you for choosing EduLearn as your learning partner. Join us on this exciting journey of discovery and growth. Learn anything, anytime, for free.</p>
+            
+            
+            <section class="social-media">
+                <h3>Connect with Us</h3>
+                
+                <a href="https://www.instagram.com/jd_hari96_" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png   " alt="Instagram">
+                </a>
+                
+            </section>
+        </section>
+    </main>
+    <script>
+        // Function to check internet connection
+        function checkInternetConnection() {
+            if (navigator.onLine) {
+                alert("You are online! Internet connection is available.");
+            } else {
+                alert("You are offline! Please check your internet connection.");
+            }
+        }
+
+        // Example: Call the function when the page loads
+        window.onload = function () {
+            checkInternetConnection();
+        };
+    </script>
+    <footer>
+        <p>&copy; 2023 EduLearn. All rights reserved.</p>
+    </footer>
+</body>
+</html>
